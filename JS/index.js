@@ -1,6 +1,6 @@
 
 document.getElementById("formulario").addEventListener("submit", function(event) {
-    event.preventDefault(); // Evita que el formulario se envíe automáticamente
+    event.preventDefault();
 
 
     let destino = document.getElementById("destino").value;
@@ -13,7 +13,7 @@ document.getElementById("formulario").addEventListener("submit", function(event)
         return;
     }
 
-    // Calcular presupuesto total del viaje
+    
     let presupuestoTotal = duracion * costoDiario;
 {console.log(`El costo total estimado es ${presupuestoTotal} valor moneda local`);
 }
